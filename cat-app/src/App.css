@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #F7CFD8;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: #251258;
+}
+h3{
+  margin-top: 50px;
+}
+button {
+  padding: 20px 50px;
+  font-size: 16px;
+  background-color: #8E7DBE;
+  font-family: inherit;
+  color: #251258;
+  border: 2px solid #251258;
+  cursor: pointer;
+}
+img {
+  width: 500px;
+  margin-top: -70px;
+}
