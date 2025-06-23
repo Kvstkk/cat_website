@@ -1,6 +1,6 @@
 import './Homecss.css';
 import { useNavigate } from 'react-router-dom';
-
+import FooterComp from './FooterComp';
 
 function HomePage() {
     const navigate = useNavigate();
@@ -13,6 +13,7 @@ function HomePage() {
             <button onClick={() => navigate('/login')}>
                 Find out
             </button>
+            <FooterComp />
         </div>)
 }
 

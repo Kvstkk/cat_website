@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Logincss.css';
+import FooterComp from "./FooterComp";
 
 
 function LoginPage() {
@@ -54,6 +55,7 @@ function LoginPage() {
                     <button type="submit">CONTINUE</button>
                 </form>
             </div>
+            <FooterComp />
         </div>
     );
 }
