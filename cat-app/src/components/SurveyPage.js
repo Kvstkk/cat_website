@@ -31,7 +31,7 @@ function SurveyPage() {
             setStep(step + 1);
             setAnswer('');
         } else {
-            navigate('/result');
+            navigate('/result', { state: { mood: answer } });
         }
     }
 
