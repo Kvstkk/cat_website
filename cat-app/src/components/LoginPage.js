@@ -10,7 +10,7 @@ function LoginPage() {
     const navigate = useNavigate();
     const letterRegex = /^[A-Za-z]+$/;
 
-    const handleSubmit = e => {
+    function handleSubmit(e) {
         e.preventDefault();
         if (!letterRegex.test(name)) {
             alert('only English letters!!!');
@@ -20,9 +20,8 @@ function LoginPage() {
             alert('only English letters!!!');
             return;
         }
-
         navigate('/page');
-    };
+    }
 
     return (
         <div className="login-page">

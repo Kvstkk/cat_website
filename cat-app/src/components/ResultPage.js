@@ -21,11 +21,9 @@ function ResultPage() {
 
     useEffect(() => {
         loadFact();
-
         const time = setInterval(() => {
             loadFact();
         }, 5000);
-
         return () => {
             clearInterval(time);
         };
